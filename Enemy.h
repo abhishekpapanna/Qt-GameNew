@@ -12,7 +12,7 @@ public:
 public slots:
     void move();
 signals:
-    void gameend();
+    void gameend();    //added signal to end the game when health reaches zero
 };
 
 #endif // ENEMY_H
